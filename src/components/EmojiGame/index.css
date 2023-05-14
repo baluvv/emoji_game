@@ -1,0 +1,23 @@
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emoji-cards-container {
+  list-style-type: none;
+  padding: 0px;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
